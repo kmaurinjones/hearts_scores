@@ -12,7 +12,7 @@ The raw data (located in the `hearts_scores - scores_anon.csv` file) was tracked
 - `received_cards_from`: the player from whom `player` received three cards after dealing each hand (see above hyperlink to game rules if not already familiar with this).
 - `total_score`: score of `player` at the end of the indicated `hand_id` of the same row.
 
-## Manual Processing I Have Applied (Pre-ML)
+## Features I Have Created (Pre-ML)
 - `points_per_hand`: number of points `player` got that hand.
 - `percent_points_per_hand`: percentage of total score (of that game) each `player` got that hand.
 - `queen_spades`: boolean (0 = no, 1 = yes) indicating whether `player` got the queen of spades that hand (see rules if this significance is unclear).
