@@ -1,5 +1,7 @@
 # Project Overview
-For years, my family has enjoyed playing the card game "Hearts". Details about the ruleset we used can be found here:
+This repository contains a dataset of scores of the four of us playing the card game "Hearts", which I have turned into a machine learning project, predicting which player would win a game given recorded score data.
+
+Details about the ruleset we used to play the game can be found here (this is helpful to understand the dataset and reasoning for adding certain features from the raw data):
 https://www.familyeducation.com/entertainment-activities/games/indoor/how-play-hearts
 
 ## Data Collection
