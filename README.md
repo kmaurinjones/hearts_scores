@@ -3,7 +3,7 @@ For years, my family has enjoyed playing the card game "Hearts". Details about t
 https://www.familyeducation.com/entertainment-activities/games/indoor/how-play-hearts
 
 ## Data Collection
-The raw data (located in the `hearts_scores - scores_anon.csv` file) was tracked by hand by the game players as games were played. All that was tracked was the score of each player (4 players, total) at the end of each hand of each game. When digitizing the data, games were each assigned a game_id integer (1:14), as to ensure that data in each game could be uniquely identified. As this dataset is not extensive of every game my family has ever played, the games included in this dataset are not ordered chronologically, nor was there any way to log this retroactively at the time of digitization, so the game_id value of each game is simply a relative identifier.
+The raw data (located in the `hearts_scores - scores_anon.csv` file) was tracked by hand by the game players as games were played. All that was tracked was the score of each player (4 players, total) at the end of each hand of each game. When digitizing the data, games were each assigned a `game_id` integer (1:14), as to ensure that data in each game could be uniquely identified. As this dataset is not extensive of every game my family has ever played, the games included in this dataset are not ordered chronologically, nor was there any way to log this retroactively at the time of digitization, so the game_id value of each game is simply a relative and unique identifier.
 
 ## Columns of the Raw Dataset
 - `game_id`: integer assigned to each game as to be able to uniquely identify each row of the dataset.
