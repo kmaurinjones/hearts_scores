@@ -1,4 +1,4 @@
-# hearts_scores
+# Project Overview
 For years, my family has enjoyed playing the card game "Hearts". Details about the ruleset we used can be found here:
 https://www.familyeducation.com/entertainment-activities/games/indoor/how-play-hearts
 
