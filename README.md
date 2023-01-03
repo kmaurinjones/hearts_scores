@@ -1,5 +1,7 @@
-# hearts_scores
-For years, my family has enjoyed playing the card game "Hearts". Details about the ruleset we used can be found here:
+# Project Overview
+This repository contains a dataset of scores of the four of us playing the card game "Hearts", which I have turned into a machine learning project, predicting which player would win a game given recorded score data.
+
+Details about the ruleset we used to play the game can be found here (this is helpful to understand the dataset and reasoning for adding certain features from the raw data):
 https://www.familyeducation.com/entertainment-activities/games/indoor/how-play-hearts
 
 ## Data Collection
@@ -12,7 +14,7 @@ The raw data (located in the `hearts_scores - scores_anon.csv` file) was tracked
 - `received_cards_from`: the player from whom `player` received three cards after dealing each hand (see above hyperlink to game rules if not already familiar with this).
 - `total_score`: score of `player` at the end of the indicated `hand_id` of the same row.
 
-## Manual Processing I Have Applied (Pre-ML)
+## Features I Have Created (Pre-ML)
 - `points_per_hand`: number of points `player` got that hand.
 - `percent_points_per_hand`: percentage of total score (of that game) each `player` got that hand.
 - `queen_spades`: boolean (0 = no, 1 = yes) indicating whether `player` got the queen of spades that hand (see rules if this significance is unclear).
