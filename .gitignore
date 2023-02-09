@@ -1,2 +1,3 @@
 *.txt
 data/hearts_scores - not_anon.csv
+*.DS_STORE
