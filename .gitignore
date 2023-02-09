@@ -2,7 +2,7 @@
 data/hearts_scores - not_anon.csv
 data/.DS_STORE
 **/.DS_STORE
-*.DS_STORE
+**.DS_STORE
 *.gitignore
 *.Rhistory
 hearts*new_dataset.ipynb
