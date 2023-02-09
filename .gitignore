@@ -1,6 +1,7 @@
 *.txt
 data/hearts_scores - not_anon.csv
 data/.DS_STORE
+data/hearts_scores_anon_balanced_dataset.csv
 **/.DS_STORE
 **.DS_STORE
 **.gitignore
