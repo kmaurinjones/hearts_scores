@@ -21,4 +21,8 @@ The raw data (located in the `hearts_scores - scores_anon.csv` file) was tracked
 - `moon_shooter`: name of `player` who shot the moon that hand, if applicable, otherwise "none" (this is a rare and significant occurrence and is not guaranteed during play).
 - `best_player_of_hand`: `player` who got the least points in that hand/did the "best" that hand.
 - `best_player_of_game`: `player` who was `best_player_of_hand` the most frequently in each game (this is not necessarily the same as the `game_winner` player -- see below).
-- `game_winner`: player who won the game. See rules for how to decide on who is selected as winner. As the objective of the game is generally to avoid points, once a given player had reached ≥100 points, the game is over, at which point the player with the least points is selected as the winner of that game.
+- `game_winner`: player who won the game. See rules for how to decide on who is selected as winner. As the objective of the game is generally to avoid points, once a given player had reached ≥100 points, the game is over, at which point the player with the least points is selected as the winner of that game
+-  `swing_up`: 1 if `player` moved up in relative position between the previous hand and this one (someone else's score surpassed theirs), else 0
+-  `swing_down`: 1 if `player` moved down in relative position between the previous hand and this one  (this player surpassed someone else's score), else 0
+- `no_swing`: 1 if `player` moved down in relative position between the previous hand and this one (this player surpassed someone else's score), else 0
+- `swing_turns`: "start" if first hand of the game, "down" if `player` moved down in relative position, "up" if player moved up in relative position that hand
